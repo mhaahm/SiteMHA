@@ -1,0 +1,259 @@
+{
+    "name": "Home Section 3",
+    "groups": "home-sections",
+    "template": "template.hbs",
+    "settings": [{
+        "name": "blockTitle",
+        "label": "Title",
+        "type": "text"
+    }, {
+		"name": "blockTitleColor",
+		"label": "Title Color",
+		"type": "colorpicker",
+		"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	},{
+		"name": "blockTitleBdColor",
+		"label": "Title Border Color",
+		"type": "colorpicker",
+		"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+        "name": "blockTitleBdhide",
+        "label": "Title Border",
+        "type": "checkbox_switch"
+    }, {
+        "name": "blockTitleFontSize",
+        "label": "Title Font Size",
+        "type": "slider",
+    	"min": "0",
+    	"max": "150"
+    }, {
+        "name": "blockTitleMarginBottom",
+        "label": "Title Margin Bottom",
+        "type": "slider",
+    	"min": "0",
+    	"max": "200"
+    }, {
+        "name": "blockTitleAlign",
+        "label": "Title Alignment",
+        "type": "select",
+        "default": "left",
+        "options": [{
+            "id": "left",
+            "val": "Left"
+        }, {
+            "id": "center",
+            "val": "Center"
+        }, {
+            "id": "right",
+            "val": "Right"
+        }, {
+            "id": "justify",
+            "val": "Justify"
+        }]
+    }, {
+        "name": "blockTitleShadow",
+        "label": "Title Shadow",
+        "type": "checkbox_switch"
+    }, {
+		"name": "blockTitleShadowColor",
+		"label": "Title Shadow Color",
+		"type": "colorpicker",
+		"colors": ["#d5d5d5", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+        "name": "blockDescription",
+        "label": "Description",
+        "type": "textarea"
+    }, {
+        "name": "blockColumnsCount",
+        "label": "Number of columns in a row?",
+        "type": "slider",
+    	"min": "1",
+    	"max": "6"
+    }, {
+        "name": "blockColumns",
+        "label": "Columns",
+        "type": "accordion",
+        "settings": [{
+            "name": "title",
+            "label": "Title",
+            "type": "text"
+        }, {
+			"name": "titleColor",
+			"label": "Title and Description Color",
+			"type": "colorpicker",
+			"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+		}, {
+			"name": "DescColor",
+			"label": "Description Color",
+			"type": "colorpicker",
+			"colors": ["#ffffff", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+		}, {
+            "name": "columnContent",
+            "label": "Content",
+            "type": "textarea"
+        }, {
+            "name": "columnIcon",
+            "label": "Icons",
+            "type": "icon",
+			"presets": ["fa fa-mobile", "fa fa-question-circle", "glyphicon glyphicon-eye-open", "glyphicon glyphicon-map-marker"]			
+        },{
+			"name": "shapeiconColor",
+			"label": "Icon Color",
+			"type": "colorpicker",
+			"colors": ["#343434", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+		},{
+			"name": "blockButtonLink",
+			"label": "Block Link",
+			"type": "text"
+    	},{
+			"name": "boxshapeHoverColor",
+			"label": "Box Hove title text and icon Color",
+			"type": "colorpicker",
+			"colors": ["#ffffff", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+		},{
+			"name": "boxshapeBgColor",
+			"label": "Box Background Color",
+			"type": "colorpicker",
+			"colors": ["#ffffff", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+		},{
+			"name": "boxshapeBgHoverColor",
+			"label": "Box Button Hover Background Color",
+			"type": "colorpicker",
+			"colors": ["#ffffff", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+		}]
+    }, {
+        "name": "blockAnimation",
+        "label": "Enable Animation",
+        "type": "checkbox_switch"
+    }, {
+        "name": "blockAnimationEffect",
+        "label": "Animation Effect",
+        "type": "select",
+        "default": "fadeIn",
+        "options": [{"id": "fadeIn", "val": "fadeIn"}, {"id": "fadeInUp", "val": "fadeInUp"}, {"id": "fadeInDown", "val": "fadeInDown"}, {"id": "fadeInLeft", "val": "fadeInLeft"}, {"id": "fadeInRight", "val": "fadeInRight"}, {"id": "fadeInUpBig", "val": "fadeInUpBig"}, {"id": "fadeInDownBig", "val": "fadeInDownBig"}, {"id": "fadeInLeftBig", "val": "fadeInLeftBig"}, {"id": "fadeInRightBig", "val": "fadeInRightBig"}, {"id": "fadeOut", "val": "fadeOut"}, {"id": "fadeOutUp", "val": "fadeOutUp"}, {"id": "fadeOutDown", "val": "fadeOutDown"}, {"id": "fadeOutLeft", "val": "fadeOutLeft"}, {"id": "fadeOutRight", "val": "fadeOutRight"}, {"id": "fadeOutUpBig", "val": "fadeOutUpBig"}, {"id": "fadeOutDownBig", "val": "fadeOutDownBig"}, {"id": "fadeOutLeftBig", "val": "fadeOutLeftBig"}, {"id": "fadeOutRightBig", "val": "fadeOutRightBig"}, {"id": "zoomIn", "val": "zoomIn"}, {"id": "zoomInUp", "val": "zoomInUp"}, {"id": "zoomInDown", "val": "zoomInDown"}, {"id": "zoomInLeft", "val": "zoomInLeft"}, {"id": "zoomInRight", "val": "zoomInRight"}, {"id": "slideInUp", "val": "slideInUp"}, {"id": "slideInDown", "val": "slideInDown"}, {"id": "slideInLeft", "val": "slideInLeft"}, {"id": "slideInRight", "val": "slideInRight"}, {"id": "slideOutUp", "val": "slideOutUp"}, {"id": "slideOutDown", "val": "slideOutDown"}, {"id": "slideOutLeft", "val": "slideOutLeft"}, {"id": "slideOutRight", "val": "slideOutRight"}, {"id": "flip", "val": "flip"}, {"id": "flipInX", "val": "flipInX"}, {"id": "flipInY", "val": "flipInY"}, {"id": "flipOutX", "val": "flipOutX"}, {"id": "flipOutY", "val": "flipOutY"}, {"id": "rotateIn", "val": "rotateIn"}, {"id": "rotateInUpLeft", "val": "rotateInUpLeft"}, {"id": "rotateInUpRight", "val": "rotateInUpRight"}, {"id": "rotateInDownLeft", "val": "rotateInDownLeft"}, {"id": "rotateInDownRight", "val": "rotateInDownRight"}, {"id": "rotateOut", "val": "rotateOut"}, {"id": "rotateOutUpLeft", "val": "rotateOutUpLeft"}, {"id": "rotateOutUpRight", "val": "rotateOutUpRight"}, {"id": "rotateOutDownLeft","val": "rotateOutDownLeft"}, {"id": "rotateOutDownRight", "val": "rotateOutDownRight"}, {"id": "bounce", "val": "bounce"}, {"id": "bounceIn", "val": "bounceIn"}, {"id": "bounceInUp", "val": "bounceInUp"}, {"id": "bounceInDown", "val": "bounceInDown"}, {"id": "bounceInLeft", "val": "bounceInLeft"}, {"id": "bounceInRight", "val": "bounceInRight"}, {"id": "bounceOut", "val": "bounceOut"}, {"id": "bounceOutUp", "val": "bounceOutUp"}, {"id": "bounceOutDown", "val": "bounceOutDown"}, {"id": "bounceOutLeft", "val": "bounceOutLeft"}, {"id": "bounceOutRight", "val": "bounceOutRight"}, {"id": "rollIn", "val": "rollIn"}, {"id": "rollOut", "val": "rollOut"}, {"id": "lightSpeedIn", "val": "lightSpeedIn"}, {"id": "lightSpeedOut", "val": "lightSpeedOut"}, {"id": "flash", "val": "flash"}, {"id": "pulse", "val": "pulse"}, {"id": "shake", "val": "shake"}, {"id": "swing", "val": "swing"}, {"id": "tada", "val": "tada"}, {"id": "wobble", "val": "wobble"}]
+    }, {
+        "name": "blockPaddingTop",
+        "label": "Padding Top",
+        "type": "slider",
+    	"min": "0",
+    	"max": "300"
+    }, {
+        "name": "blockPaddingBottom",
+        "label": "Padding Bottom",
+        "type": "slider",
+    	"min": "0",
+    	"max": "300"
+    }, {
+    	"name": "blockBackgroundColor",
+    	"label": "Background Color",
+    	"type": "colorpicker",
+    	"colors": ["#f3f3f3", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	},{
+        "name": "blockshap",
+        "label": "Turn on/of section bottom shape",
+        "type": "checkbox_switch"
+    }, {
+        "name": "blockParallaxEffect",
+        "label": "Parallax Effect",
+        "type": "checkbox_switch"
+    }, {
+        "name": "blockBgImageUrl",
+        "label": "Background Image",
+        "type": "image"
+    }],
+	
+    "defaults": {
+        "blockTitle": "WHY CHOOSE US",
+		"blockTitleColor": "#444444",
+		"blockTitleBdColor": "#3dbad5",
+		"blockTitleBdhide" : 1,
+		"blockTitleFontSize": "25",
+		"blockTitleMarginBottom": "50",
+		"blockTitleAlign": "center",
+		"blockTitleShadow" : 0,
+		"blockTitleShadowColor": "#d5d5d5",		
+        "blockDescription": "",
+		"blockAnimation" : 0,
+		"blockAnimationEffect" : "fadeIn",
+		"blockPaddingTop" : "110",
+		"blockPaddingBottom" : "80",
+		"blockBackgroundColor": "#f6f6f6",
+		"blockshap" : 0,
+		"blockParallaxEffect" : 0,
+		"blockBgImageUrl": "",
+		"blockColumnsCount" : "3",
+		"blockColumns": [{
+			"title": "Experienced Professionals",
+			"titleColor": "#444444",
+			"DescColor": "#7b7b7b",
+            "columnContent": "<p>vestibulum mimperdiet lorem. Pellentesque quam arcu, dignissim sem gravida, faucibus pharetra nisi. Curabitur vehicula</p>",
+			"shapeiconColor": "#222222",
+			"columnIcon": "fa fa-user",
+			"blockButtonLink": "",
+			"boxshapeHoverColor": "#ffffff",
+			"boxshapeBgColor": "#ffffff",
+			"boxshapeBgHoverColor": "#39b4ce",
+            "order": 1
+        },{
+			"title": "Expert Technical Skills",
+			"titleColor": "#444444",
+			"DescColor": "#7b7b7b",
+            "columnContent": "<p>vestibulum mimperdiet lorem. Pellentesque quam arcu, dignissim sem gravida, faucibus pharetra nisi. Curabitur vehicula</p>",
+			"shapeiconColor": "#222222",
+			"columnIcon": "fa fa-star",
+			"blockButtonLink": "",
+			"boxshapeHoverColor": "#ffffff",
+			"boxshapeBgColor": "#ffffff",
+			"boxshapeBgHoverColor": "#39b4ce",
+            "order": 2
+        },{
+			"title": "Friendly Service",
+			"titleColor": "#444444",
+			"DescColor": "#7b7b7b",
+            "columnContent": "<p>vestibulum mimperdiet lorem. Pellentesque quam arcu, dignissim sem gravida, faucibus pharetra nisi. Curabitur vehicula</p>",
+			"shapeiconColor": "#222222",
+			"columnIcon": "fa fa-paper-plane",
+			"blockButtonLink": "",
+			"boxshapeHoverColor": "#ffffff",
+			"boxshapeBgColor": "#ffffff",
+			"boxshapeBgHoverColor": "#39b4ce",
+            "order": 3
+        },{
+			"title": "Trustworthy See Reviews",
+			"titleColor": "#444444",
+			"DescColor": "#7b7b7b",
+            "columnContent": "<p>vestibulum mimperdiet lorem. Pellentesque quam arcu, dignissim sem gravida, faucibus pharetra nisi. Curabitur vehicula</p>",
+			"shapeiconColor": "#222222",
+			"columnIcon": "fa fa-comments-o",
+			"blockButtonLink": "#",
+			"boxshapeHoverColor": "#ffffff",
+			"boxshapeBgColor": "#ffffff",
+			"boxshapeBgHoverColor": "#39b4ce",
+            "order": 4
+        },{
+			"title": "Excellent Reputation",
+			"titleColor": "#444444",
+			"DescColor": "#7b7b7b",
+            "columnContent": "<p>vestibulum mimperdiet lorem. Pellentesque quam arcu, dignissim sem gravida, faucibus pharetra nisi. Curabitur vehicula</p>",
+			"shapeiconColor": "#222222",
+			"columnIcon": "fa fa-heart",
+			"blockButtonLink": "#",
+			"boxshapeHoverColor": "#ffffff",
+			"boxshapeBgColor": "#ffffff",
+			"boxshapeBgHoverColor": "#39b4ce",
+            "order": 5
+        },{
+			"title": "Affordable Diagnosis",
+			"titleColor": "#444444",
+			"DescColor": "#7b7b7b",
+            "columnContent": "<p>vestibulum mimperdiet lorem. Pellentesque quam arcu, dignissim sem gravida, faucibus pharetra nisi. Curabitur vehicula</p>",
+			"shapeiconColor": "#222222",
+			"columnIcon": "fa fa-user-md",
+			"blockButtonLink": "#",
+			"boxshapeHoverColor": "#ffffff",
+			"boxshapeBgColor": "#ffffff",
+			"boxshapeBgHoverColor": "#39b4ce",
+            "order": 6
+        }]
+    }
+}

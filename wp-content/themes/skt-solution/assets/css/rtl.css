@@ -1,0 +1,74 @@
+#ast_related .panel-container .rel_tab{float:right}.edit_wrap a{right:auto;left:0}#searchsubmit{left:0}#topmenu ul li span{padding-right:5px;padding-left:0}.layer_rtl .single_wrap,.layer_rtl .lay4_wrap{float:right}.lay4_wrap.left_sidebar{float:right}.lay4 .post_image{float:right;margin-right:0;margin-left:2%}.single_metainfo .fa-calendar{display:none}.tabs li{float:right}.act_left{float:right}.lts_scs:before,.lts_info:before,.lts_wng:before,.lts_err:before{float:right;margin-left:5px;margin-right:0}.comment-body{float:right}a.comment-edit-link{left:0;right:auto}.org_comment{float:none}.comm_date i{padding-left:5px}.commentlist #respond{float:right}.thn_wgt_thumb{float:right;margin-left:3%;margin-right:0}.widget_content{text-align:right}
+
+
+
+.left-title h2, .post_block_style4, #footer .footercols4, #footer .footercols3, #footer .footercols2, #footer .footercols1, .title, .slidedesc, .right-fitright, .right-fit-desc, .designation, .headingseperator h3, .post_block_style3 { text-align:right;}
+#footer .footercols1 h4::after, #footer .footercols2 h4::after, #footer .footercols3 h4::after, #footer .footercols4 h4::after { left:inherit; right:0;}
+ul.footmenu { padding-right:0;}
+.ourcarssliderwrapper .bx-wrapper .bx-prev, .ourcarssliderwrapper .bx-wrapper .bx-prev:hover { left:inherit; right:585px;}
+.post_block_style4 .datemonth { left:inherit; right:30px;}
+.carservices-icon { float:right; margin-left:30px;}
+.home3_section_area.home3_section_area_bg img { float:left;}
+.skt-col-columns-2 a { float:right;}
+.footer-post-area ul li img { float:right; margin-left:15px;}
+.footmenu li a::before { padding-left:10px; content:"\f104"; font-family: FontAwesome; font-size: 14px;}
+.carservicesbox { padding-left:3%; padding-right:0;}
+.ourcarsslider { left:721%;}
+.testimonial-image { float:none; margin:0 0 30px 0;}
+.home5_section_area .skt-col-columns-2 { padding:0 20px;}
+.home_section5_content { margin:0 -20px;}
+.home5_section_area .skt-col-columns-2 .bx-controls-direction { position:relative; left:-470px;}
+.rtl #customize-theme-controls {margin-right:0 !important; margin-left: 0 !important;}
+#topmenu ul li:last-child ul, #topmenu ul li:last-child ul li ul, #topmenu ul li:last-child ul li ul li ul, #topmenu ul li:last-child ul li ul li ul li ul, #topmenu ul li:last-child ul li ul li ul li ul li ul, #topmenu ul li:last-child ul li ul li ul li ul li ul li ul, #topmenu ul li ul li ul { right:100%;}
+.ourcarssliderwrapper .bx-wrapper .bx-prev, .ourcarssliderwrapper .bx-wrapper .bx-prev:hover { right:50% !important;}
+.ourcarssliderwrapper .bx-wrapper .bx-next, .ourcarssliderwrapper .bx-wrapper .bx-next:hover { left:50% !important;}
+
+.title, .slidedesc, .slidebtn { margin-right:60%;}
+.theme-default .nivo-controlNav a { text-indent:-9999px !important; font-size:0 !important;}
+.featurethumb img { left:inherit !important; right:-45px !important;}
+.skillbar-title { right:12px !important;}
+.expanding-grid .spacer { left:inherit !important; right:-999999px !important;}
+.style3thumb { float:right; margin-right:0 !important; margin-left:6% !important;}
+#footer .contact-info .box i { float:right; margin:0 0 0 25px; padding:0 0 0 25px;}
+#footer .contact-info .box i::after { right:inherit !important; left:0;}
+.post_block_style3 { float:right; margin:0 0 3% 3% !important; width:42.50% !important;}
+.head-info-area .fa { margin:0 0 0 8px !important;}
+
+
+@media screen and (max-width: 29.938em) {
+
+.ourcarsslider { left:1693% !important;}
+.home5_section_area .skt-col-columns-2 .bx-controls-direction { left:inherit !important; right:220px !important;}
+.featurethumb img { left:0 !important; right:0 !important;}
+.skt-col-columns-2 a { float:none;}
+.head-info-area .fa { margin:0 0 0 8px !important;}
+.post_block_style3 { width:100% !important; margin:0 0 3% 0 !important;}
+
+}
+
+@media screen and (max-width:47.938em) and (min-width:30.000em) {
+	
+.ourcarsslider { left:1700% !important;}
+.home5_section_area .skt-col-columns-2 .bx-controls-direction { left:inherit !important; right:360px !important;}
+.bxmain .bx-wrapper .bx-viewport { height:auto !important;}
+.head-info-area .fa { margin:0 0 0 8px !important;}
+	
+}
+
+@media screen and (max-width:63.938em) and (min-width:48.000em) {
+
+.ourcarsslider li { width:220px !important;}
+.home5_section_area .skt-col-columns-2 .bx-controls-direction { right:270px !important; left:inherit !important;}
+.featurethumb img { left:0 !important; right:0 !important;}
+.skt-col-columns-2 a { float:none !important;}
+.head-info-area .fa { margin:0 0 0 8px !important;}
+
+}
+
+@media screen and (max-width:72.438em) and (min-width:63.250em) {
+.carservicesbox { padding:0 !important;}
+.home5_section_area .skt-col-columns-2 .bx-controls-direction { right:380px !important; left:inherit !important;}
+.featurethumb img { left:0 !important; right:0 !important;}
+.skt-col-columns-2 a { float:none !important;}
+.head-info-area .fa { margin:0 0 0 8px !important;}
+}

@@ -1,0 +1,142 @@
+{
+    "name": "Home Section 2",
+    "groups": "home-sections",
+    "template": "template.hbs",
+    "settings": [{ 
+	 	"name": "blockTitle",
+        "label": "Title",
+        "type": "text"
+	},{
+		"name": "blockTitleColor",
+		"label": "Title Color",
+		"type": "colorpicker",
+		"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	},{
+		"name": "blockTitleBdColor",
+		"label": "Title Border Color",
+		"type": "colorpicker",
+		"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+        "name": "blockTitleBdhide",
+        "label": "Title Border",
+        "type": "checkbox_switch"
+    },{
+        "name": "blockTitleFontSize",
+        "label": "Title Font Size",
+        "type": "slider",
+    	"min": "0",
+    	"max": "150"
+    },{
+        "name": "blockTitleMarginBottom",
+        "label": "Title Margin Bottom",
+        "type": "slider",
+    	"min": "0",
+    	"max": "200"
+    },{
+        "name": "blockTitleAlign",
+        "label": "Title Alignment",
+        "type": "select",
+        "default": "left",
+        "options": [{
+            "id": "left",
+            "val": "Left"
+        }, {
+            "id": "center",
+            "val": "Center"
+        }, {
+            "id": "right",
+            "val": "Right"
+        }, {
+            "id": "justify",
+            "val": "Justify"
+        }]
+    }, {
+        "name": "blockDescription",
+        "label": "Text",
+        "type": "textarea"
+    },{
+        "name": "blockbuttontext",
+        "label": "Button Text",
+        "type": "text"
+    },{
+        "name": "blockbuttonlink",
+        "label": "Button Link",
+        "type": "text"
+    },{
+    	"name": "readmoreBgColor",
+    	"label": "Button Background Color",
+    	"type": "colorpicker",
+    	"colors": ["#3dbad5", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	},{
+    	"name": "readmoreColor",
+    	"label": "Button Color Color",
+    	"type": "colorpicker",
+    	"colors": ["#3dbad5", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	},{
+        "name": "blockImage",
+        "label": "Image",
+        "type": "image"
+    }, {
+        "name": "blockSwitchPosition",
+        "label": "Switch Position",
+        "type": "checkbox_switch"
+    }, {
+        "name": "blockAnimation",
+        "label": "Enable Animation",
+        "type": "checkbox_switch"
+    }, {
+        "name": "blockAnimationEffect",
+        "label": "Animation Effect",
+        "type": "select",
+        "default": "fadeIn",
+        "options": [{"id": "fadeIn", "val": "fadeIn"}, {"id": "fadeInUp", "val": "fadeInUp"}, {"id": "fadeInDown", "val": "fadeInDown"}, {"id": "fadeInLeft", "val": "fadeInLeft"}, {"id": "fadeInRight", "val": "fadeInRight"}, {"id": "fadeInUpBig", "val": "fadeInUpBig"}, {"id": "fadeInDownBig", "val": "fadeInDownBig"}, {"id": "fadeInLeftBig", "val": "fadeInLeftBig"}, {"id": "fadeInRightBig", "val": "fadeInRightBig"}, {"id": "fadeOut", "val": "fadeOut"}, {"id": "fadeOutUp", "val": "fadeOutUp"}, {"id": "fadeOutDown", "val": "fadeOutDown"}, {"id": "fadeOutLeft", "val": "fadeOutLeft"}, {"id": "fadeOutRight", "val": "fadeOutRight"}, {"id": "fadeOutUpBig", "val": "fadeOutUpBig"}, {"id": "fadeOutDownBig", "val": "fadeOutDownBig"}, {"id": "fadeOutLeftBig", "val": "fadeOutLeftBig"}, {"id": "fadeOutRightBig", "val": "fadeOutRightBig"}, {"id": "zoomIn", "val": "zoomIn"}, {"id": "zoomInUp", "val": "zoomInUp"}, {"id": "zoomInDown", "val": "zoomInDown"}, {"id": "zoomInLeft", "val": "zoomInLeft"}, {"id": "zoomInRight", "val": "zoomInRight"}, {"id": "slideInUp", "val": "slideInUp"}, {"id": "slideInDown", "val": "slideInDown"}, {"id": "slideInLeft", "val": "slideInLeft"}, {"id": "slideInRight", "val": "slideInRight"}, {"id": "slideOutUp", "val": "slideOutUp"}, {"id": "slideOutDown", "val": "slideOutDown"}, {"id": "slideOutLeft", "val": "slideOutLeft"}, {"id": "slideOutRight", "val": "slideOutRight"}, {"id": "flip", "val": "flip"}, {"id": "flipInX", "val": "flipInX"}, {"id": "flipInY", "val": "flipInY"}, {"id": "flipOutX", "val": "flipOutX"}, {"id": "flipOutY", "val": "flipOutY"}, {"id": "rotateIn", "val": "rotateIn"}, {"id": "rotateInUpLeft", "val": "rotateInUpLeft"}, {"id": "rotateInUpRight", "val": "rotateInUpRight"}, {"id": "rotateInDownLeft", "val": "rotateInDownLeft"}, {"id": "rotateInDownRight", "val": "rotateInDownRight"}, {"id": "rotateOut", "val": "rotateOut"}, {"id": "rotateOutUpLeft", "val": "rotateOutUpLeft"}, {"id": "rotateOutUpRight", "val": "rotateOutUpRight"}, {"id": "rotateOutDownLeft","val": "rotateOutDownLeft"}, {"id": "rotateOutDownRight", "val": "rotateOutDownRight"}, {"id": "bounce", "val": "bounce"}, {"id": "bounceIn", "val": "bounceIn"}, {"id": "bounceInUp", "val": "bounceInUp"}, {"id": "bounceInDown", "val": "bounceInDown"}, {"id": "bounceInLeft", "val": "bounceInLeft"}, {"id": "bounceInRight", "val": "bounceInRight"}, {"id": "bounceOut", "val": "bounceOut"}, {"id": "bounceOutUp", "val": "bounceOutUp"}, {"id": "bounceOutDown", "val": "bounceOutDown"}, {"id": "bounceOutLeft", "val": "bounceOutLeft"}, {"id": "bounceOutRight", "val": "bounceOutRight"}, {"id": "rollIn", "val": "rollIn"}, {"id": "rollOut", "val": "rollOut"}, {"id": "lightSpeedIn", "val": "lightSpeedIn"}, {"id": "lightSpeedOut", "val": "lightSpeedOut"}, {"id": "flash", "val": "flash"}, {"id": "pulse", "val": "pulse"}, {"id": "shake", "val": "shake"}, {"id": "swing", "val": "swing"}, {"id": "tada", "val": "tada"}, {"id": "wobble", "val": "wobble"}]
+    },{
+        "name": "blockPaddingTop",
+        "label": "Padding Top",
+        "type": "slider",
+    	"min": "0",
+    	"max": "300"
+    }, {
+        "name": "blockPaddingBottom",
+        "label": "Padding Bottom",
+        "type": "slider",
+    	"min": "0",
+    	"max": "300"
+    }, {
+    	"name": "blockBackgroundColor",
+    	"label": "Background Color",
+    	"type": "colorpicker",
+    	"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	},{
+        "name": "blockParallaxEffect",
+        "label": "Parallax Effect",
+        "type": "checkbox_switch"
+    }, {
+        "name": "blockBgImageUrl",
+        "label": "Background Image",
+        "type": "image"
+    }],     
+    "defaults": {
+		"blockTitle": "EXCELLENT TECH SUPPORT",
+		"blockTitleColor": "#444444",
+		"blockTitleBdColor": "#3dbad5",
+		"blockTitleBdhide" : 1,
+		"blockTitleFontSize": "25",
+		"blockTitleMarginBottom": "50",
+		"blockTitleAlign": "left",
+        "blockImage": "",
+        "blockDescription": "<p>sed venenatis tellus magna nec dolor. Phasellus nisi odio, lobortis id finibus sed, feugiat ac est. Etiam a imperdiet nulla. Curabitur mattis elit iaculis, accumsan ligula in, sagittis leo. Vestibulum id purus at dui volutpat facilisis at et tortor. Nunc at rhoncus purus, tempus venenatis enim. Cras sed orci pretium,<br> <br>vestibulum mi vel, imperdiet lorem. Pellentesque quam arcu, dignissim ac sem gravida, faucibus pharetra nisi. Curabitur vehicula nec dui eu consectetur. Nam sed vehicula justo, non laoreet nibh. Nam maximus nisi sed porta imperdiet..</p>",
+		"blockbuttontext": "Meet The Team",
+		"blockbuttonlink": "#",
+		"readmoreBgColor": "#3dbad5",
+		"readmoreColor": "#ffffff",
+		"blockSwitchPosition": 0,
+		"blockAnimation" : 0,
+		"blockAnimationEffect" : "fadeIn",
+		"blockPaddingTop" : "90",
+		"blockPaddingBottom" : "90",
+		"blockBackgroundColor": "#ffffff",
+		"blockParallaxEffect" : 0,
+		"blockBgImageUrl": "%block_url%/assets/img/section-bg.jpg"		
+    }
+}

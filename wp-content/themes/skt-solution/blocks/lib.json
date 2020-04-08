@@ -1,0 +1,26 @@
+{
+    "name": "SKT Theme Blocks",
+    "version": "1.0",
+    "groups": [{
+        "id": "home-sections",
+        "label": "Home Sections",
+        "position": 0
+    }],
+	
+    "blocks": [{
+        "name": "home_section1",
+        "url": "home_section1/"
+    }, {
+        "name": "home_section2",
+        "url": "home_section2/"
+    }, {
+        "name": "home_section3",
+        "url": "home_section3/"
+    }],
+	
+	"res": [{
+        "type": "css",
+        "name": "skttheme-default-css",
+        "src": "lib.css"
+    }]
+}
